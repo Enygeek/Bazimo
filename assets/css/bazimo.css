@@ -1,0 +1,53 @@
+hr.dashed {
+    border-top: 2px dashed #999;
+}
+
+hr.dotted {
+    border-top: 2px dotted #999;
+}
+
+hr.solid {
+    border-top: 2px solid #999;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Ajout de la transition pour l'opacité */
+}
+
+.body-style{
+    background: #f7f7f7;
+}
+.section {
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.bg-mapzone{
+    height:360px;
+    background-image: url("../images/zones.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: contain;
+}
+
+.bg-explainMoment {
+    height: 300px;
+    background-image: url("../images/Moment.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: contain;
+}
+
+.slf_table {
+    /*
+    border-collapse: collapse;
+    border-spacing: 5px;
+    width: 100%;
+    border-radius: 30px;
+    */
+}
